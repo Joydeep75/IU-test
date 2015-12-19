@@ -1,0 +1,300 @@
+
+Joydeep@JOYAPS /f/Joydeep/Education/Coursera/Data-Science-Specialization/The_Dat
+a_Scientist_Toolbox/test-repo01
+$ git init
+Initialized empty Git repository in f:/Joydeep/Education/Coursera/Data-Science-S
+pecialization/The_Data_Scientist_Toolbox/test-repo01/.git/
+
+Joydeep@JOYAPS /f/Joydeep/Education/Coursera/Data-Science-Specialization/The_Dat
+a_Scientist_Toolbox/test-repo01 (master)
+$ git remote add origin https://github.com/Joydeep75/test-repo01.git
+
+Joydeep@JOYAPS /f/Joydeep/Education/Coursera/Data-Science-Specialization/The_Dat
+a_Scientist_Toolbox/test-repo01 (master)
+$ git add -A
+
+Joydeep@JOYAPS /f/Joydeep/Education/Coursera/Data-Science-Specialization/The_Dat
+a_Scientist_Toolbox/test-repo01 (master)
+$ git commit -m "New Local Repository"
+[master (root-commit) 290f364] New Local Repository
+ 1 file changed, 1 insertion(+)
+ create mode 100644 HelloWorld.md
+
+Joydeep@JOYAPS /f/Joydeep/Education/Coursera/Data-Science-Specialization/The_Dat
+a_Scientist_Toolbox/test-repo01 (master)
+$ git push
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+In Git 2.0, Git will default to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': Joydeep75
+Password for 'https://Joydeep75@github.com':
+To https://github.com/Joydeep75/test-repo01.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/Joydeep75/test-repo01.git
+'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Joydeep@JOYAPS /f/Joydeep/Education/Coursera/Data-Science-Specialization/The_Dat
+a_Scientist_Toolbox/test-repo01 (master)
+$ git pull
+warning: no common commits
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0)
+Unpacking objects: 100% (3/3), done.
+From https://github.com/Joydeep75/test-repo01
+ * [new branch]      master     -> origin/master
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master
+
+
+Joydeep@JOYAPS /f/Joydeep/Education/Coursera/Data-Science-Specialization/The_Dat
+a_Scientist_Toolbox/test-repo01 (master)
+$ pwd
+/f/Joydeep/Education/Coursera/Data-Science-Specialization/The_Data_Scientist_Too
+lbox/test-repo01
+
+Joydeep@JOYAPS /f/Joydeep/Education/Coursera/Data-Science-Specialization/The_Dat
+a_Scientist_Toolbox/test-repo01 (master)
+$ git push -u origin master
+Username for 'https://github.com': Joydeep75
+Password for 'https://Joydeep75@github.com':
+To https://github.com/Joydeep75/test-repo01.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Joydeep75/test-repo01.git
+'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Joydeep@JOYAPS /f/Joydeep/Education/Coursera/Data-Science-Specialization/The_Dat
+a_Scientist_Toolbox/test-repo01 (master)
+$ ls -al
+total 5
+drwxr-xr-x    1 Joydeep  Administ        0 Jan 25 18:27 .
+drwxr-xr-x    1 Joydeep  Administ     4096 Jan 25 18:20 ..
+drwxr-xr-x    1 Joydeep  Administ     4096 Jan 25 18:35 .git
+-rw-r--r--    1 Joydeep  Administ       30 Jan 25 18:17 HelloWorld.md
+
+Joydeep@JOYAPS /f/Joydeep/Education/Coursera/Data-Science-Specialization/The_Dat
+a_Scientist_Toolbox/test-repo01 (master)
+$
+
+Joydeep@JOYAPS /f/Joydeep/Education/Coursera/Data-Science-Specialization/The_Dat
+a_Scientist_Toolbox/test-repo01 (master)
+$ git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master
+
+
+Joydeep@JOYAPS /f/Joydeep/Education/Coursera/Data-Science-Specialization/The_Dat
+a_Scientist_Toolbox/test-repo01 (master)
+$
+
+Joydeep@JOYAPS /f/Joydeep/Education/Coursera/Data-Science-Specialization/The_Dat
+a_Scientist_Toolbox/test-repo01 (master)
+$ git commit
+On branch master
+nothing to commit, working directory clean
+
+Joydeep@JOYAPS /f/Joydeep/Education/Coursera/Data-Science-Specialization/The_Dat
+a_Scientist_Toolbox/test-repo01 (master)
+$ git push
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+In Git 2.0, Git will default to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': joydeep75
+Password for 'https://joydeep75@github.com':
+To https://github.com/Joydeep75/test-repo01.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Joydeep75/test-repo01.git
+'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Joydeep@JOYAPS /f/Joydeep/Education/Coursera/Data-Science-Specialization/The_Dat
+a_Scientist_Toolbox/test-repo01 (master)
+$ git push --help
+Launching default browser to display HTML ...
+
+Joydeep@JOYAPS /f/Joydeep/Education/Coursera/Data-Science-Specialization/The_Dat
+a_Scientist_Toolbox/test-repo01 (master)
+$ pwd
+/f/Joydeep/Education/Coursera/Data-Science-Specialization/The_Data_Scientist_Too
+lbox/test-repo01
+
+Joydeep@JOYAPS /f/Joydeep/Education/Coursera/Data-Science-Specialization/The_Dat
+a_Scientist_Toolbox/test-repo01 (master)
+$ ls -ltr
+total 1
+-rw-r--r--    1 Joydeep  Administ       30 Jan 25 18:17 HelloWorld.md
+
+Joydeep@JOYAPS /f/Joydeep/Education/Coursera/Data-Science-Specialization/The_Dat
+a_Scientist_Toolbox/test-repo01 (master)
+$ chmod 777 HelloWorld.md
+
+Joydeep@JOYAPS /f/Joydeep/Education/Coursera/Data-Science-Specialization/The_Dat
+a_Scientist_Toolbox/test-repo01 (master)
+$ ls -ltr
+total 1
+-rw-r--r--    1 Joydeep  Administ       30 Jan 25 18:17 HelloWorld.md
+
+Joydeep@JOYAPS /f/Joydeep/Education/Coursera/Data-Science-Specialization/The_Dat
+a_Scientist_Toolbox/test-repo01 (master)
+$ git push -f origin master .
+fatal: remote part of refspec is not a valid name in .
+Unexpected end of command stream
+
+Joydeep@JOYAPS /f/Joydeep/Education/Coursera/Data-Science-Specialization/The_Dat
+a_Scientist_Toolbox/test-repo01 (master)
+$ git push -f origin master
+Username for 'https://github.com': joydeep75
+Password for 'https://joydeep75@github.com':
+Counting objects: 4, done.
+Writing objects: 100% (3/3), 257 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/Joydeep75/test-repo01.git
+ + 58e7c81...290f364 master -> master (forced update)
+
+Joydeep@JOYAPS /f/Joydeep/Education/Coursera/Data-Science-Specialization/The_Dat
+a_Scientist_Toolbox/test-repo01 (master)
+$ pwd
+/f/Joydeep/Education/Coursera/Data-Science-Specialization/The_Data_Scientist_Too
+lbox/test-repo01
+
+Joydeep@JOYAPS /f/Joydeep/Education/Coursera/Data-Science-Specialization/The_Dat
+a_Scientist_Toolbox/test-repo01 (master)
+$ cd ..
+
+Joydeep@JOYAPS /f/Joydeep/Education/Coursera/Data-Science-Specialization/The_Dat
+a_Scientist_Toolbox
+$ ls -ltr
+total 7575
+-rwxr-xr-x    1 Joydeep  Administ 15511958 Apr 14  2014 Git-1.9.0-preview2014021
+7.exe
+drwxr-xr-x    3 Joydeep  Administ        0 Apr 19  2014 datasciencecoursera
+drwxr-xr-x    1 Joydeep  Administ        0 Apr 19  2014 test-repo
+drwxr-xr-x    1 Joydeep  Administ        0 Jan 25 18:07 datasharing
+drwxr-xr-x    1 Joydeep  Administ        0 Jan 25 18:27 test-repo01
+
+Joydeep@JOYAPS /f/Joydeep/Education/Coursera/Data-Science-Specialization/The_Dat
+a_Scientist_Toolbox
+$ cd datasciencecoursera/
+
+Joydeep@JOYAPS /f/Joydeep/Education/Coursera/Data-Science-Specialization/The_Dat
+a_Scientist_Toolbox/datasciencecoursera
+$ pwd
+/f/Joydeep/Education/Coursera/Data-Science-Specialization/The_Data_Scientist_Too
+lbox/datasciencecoursera
+
+Joydeep@JOYAPS /f/Joydeep/Education/Coursera/Data-Science-Specialization/The_Dat
+a_Scientist_Toolbox/datasciencecoursera
+$ git commit
+fatal: Not a git repository (or any of the parent directories): .git
+
+Joydeep@JOYAPS /f/Joydeep/Education/Coursera/Data-Science-Specialization/The_Dat
+a_Scientist_Toolbox/datasciencecoursera
+$ pwd
+/f/Joydeep/Education/Coursera/Data-Science-Specialization/The_Data_Scientist_Too
+lbox/datasciencecoursera
+
+Joydeep@JOYAPS /f/Joydeep/Education/Coursera/Data-Science-Specialization/The_Dat
+a_Scientist_Toolbox/datasciencecoursera
+$
+
+Joydeep@JOYAPS /f/Joydeep/Education/Coursera/Data-Science-Specialization/The_Dat
+a_Scientist_Toolbox/datasciencecoursera
+$ git init
+Initialized empty Git repository in f:/Joydeep/Education/Coursera/Data-Science-S
+pecialization/The_Data_Scientist_Toolbox/datasciencecoursera/.git/
+
+Joydeep@JOYAPS /f/Joydeep/Education/Coursera/Data-Science-Specialization/The_Dat
+a_Scientist_Toolbox/datasciencecoursera (master)
+$ git remote add origin https://github.com/Joydeep75/datasciencecoursera
+
+Joydeep@JOYAPS /f/Joydeep/Education/Coursera/Data-Science-Specialization/The_Dat
+a_Scientist_Toolbox/datasciencecoursera (master)
+$ git remote add origin https://github.com/Joydeep75/datasciencecoursera.git
+fatal: remote origin already exists.
+
+Joydeep@JOYAPS /f/Joydeep/Education/Coursera/Data-Science-Specialization/The_Dat
+a_Scientist_Toolbox/datasciencecoursera (master)
+$ git add -A
+
+Joydeep@JOYAPS /f/Joydeep/Education/Coursera/Data-Science-Specialization/The_Dat
+a_Scientist_Toolbox/datasciencecoursera (master)
+$ git commit -m "Assignment Submission"
+[master (root-commit) 844dc8b] Assignment Submission
+ 1 file changed, 1 insertion(+)
+ create mode 100644 HelloWorld.md
+
+Joydeep@JOYAPS /f/Joydeep/Education/Coursera/Data-Science-Specialization/The_Dat
+a_Scientist_Toolbox/datasciencecoursera (master)
+$ git push -f origin master
+Username for 'https://github.com': Joydeep75
+Password for 'https://Joydeep75@github.com':
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 253 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/Joydeep75/datasciencecoursera
+ + 025af82...844dc8b master -> master (forced update)
+
+Joydeep@JOYAPS /f/Joydeep/Education/Coursera/Data-Science-Specialization/The_Dat
+a_Scientist_Toolbox/datasciencecoursera (master)
+$
